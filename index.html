@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Tienda</title>
+    <!-- Enlazamos el CSS que está dentro de la carpeta css/ -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+
+    <form action="#" method="post">
+        <p>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre">
+        </p>
+
+        <p>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email">
+        </p>
+
+        <p>
+            <label for="mensaje">Mensaje:</label><br>
+            <!-- ❗ SIN atributos rows ni cols (los reemplaza el CSS) -->
+            <textarea id="mensaje" name="mensaje"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>

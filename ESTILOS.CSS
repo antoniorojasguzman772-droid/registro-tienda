@@ -1,0 +1,33 @@
+/* ============================================
+   1) ESTILOS DEL BODY
+   - Margen de 20px en todos los lados
+   - Fuente Verdana
+   ============================================ */
+body {
+    margin: 20px;
+    font-family: Verdana, sans-serif;
+}
+
+/* ============================================
+   2) SELECTOR DE ETIQUETA PARA EL TEXTAREA
+   - Ancho de 200px (reemplaza rows y cols)
+   ============================================ */
+textarea {
+    width: 200px;
+}
+
+/* ============================================
+   3) SELECTOR POR ATRIBUTO PARA EL INPUT EMAIL
+   - Fondo gris claro #eeeeee
+   ============================================ */
+input[name="email"] {
+    background-color: #eeeeee;
+}
+
+/* ============================================
+   4) SELECTOR MÚLTIPLE PARA PÁRRAFOS Y LABELS
+   - Fuente Tahoma
+   ============================================ */
+p, label {
+    font-family: Tahoma, sans-serif;
+}
